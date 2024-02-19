@@ -1,5 +1,4 @@
 <?php
-
     // Auto Loader
     // TODO: Change to Composer Loader
     declare( strict_types=1 );
@@ -11,14 +10,10 @@
     // Exception Handler
     set_exception_handler("ErrorHandler::handleException");
 
-    // Change to JSON Type
-    header( "Access-Control-Allow-Origin: *" );
-    header( "Access-Control-Allow-Headers: *" );
-
     $parts = explode( "/", $_SERVER[ "REQUEST_URI" ]);
 
     if ( $parts[ 1 ] != "api" ) {
-        echo '<h1> 404 Not Found </h1>';
+        echo '<h1> 404 Not Found1 </h1>';
         http_response_code( 404 );
         exit;
     }
