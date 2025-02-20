@@ -6,7 +6,7 @@
 2. Download this source code as zip
 3. Extract the zip file in c:\xampp\htdocs
 4. Rename the root folder as 'api'
-5. At browser, go to http://localhost:8888/phpmyadmin where 8888 belongs to the port (might be vary from your PC)
+5. At browser, go to http://localhost:80/phpmyadmin where 8888 belongs to the port (might be vary from your PC)
 6. At the middle of the screen, go to SQL tab, type the SQL queries below:
 
 ```CREATE DATABASE file_upload_db;```
